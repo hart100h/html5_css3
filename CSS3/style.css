@@ -8,37 +8,11 @@
 
 body{
     background-image:url("background.jpg"); /*Definindo uma imagem como plano de fundo.*/
-    
+    background-size: 150%; /*Definindo o tamanho do background img*/
     color: whitesmoke;
     margin-left: 150px; /*Definição de margem*/
     margin-right: 150px;  
 }
-
-.wrapper {
-    display: grid;
-    grid-template-columns: 200px 200px 200px;
-    color: black;
-  }
-  * {box-sizing: border-box;}
-  .wrapper {
-      border: 2px black;
-      border-radius: 5px;
-      background-color: rgb(165, 191, 199); /*É possível definir de acordo com o código RGB da cor. >> https://htmlcolorcodes.com - site com codigos hexadecimais das cores*/
-  }
-  .wrapper > div {
-      border: 2px solid #ffa94d;
-      border-radius: 5px;
-      background-color: #ffd8a8;
-      padding: 1em;
-      color: #d9480f;
-  }
-  .nested {
-      border: 2px solid #ffec99;
-      border-radius: 5px;
-      background-color: #fff9db;
-      padding: 1em;
-  }
-      
 
 header{
     margin-bottom: 100px;
